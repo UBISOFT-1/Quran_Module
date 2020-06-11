@@ -74,7 +74,7 @@ All the text and Databases are theirs.
 
 # License
 
-See LICENSE.txt  
+See LICENSE.txt Also, when used in any Commercial Application, Permission must be taken. And for modifiying the code, permission must also be granted. And for Private use, feel free to enjoy.
 
 ### Special Thanks
 Special Thanks to God Almighty who helped me make this module in less than an Hour Practically.
