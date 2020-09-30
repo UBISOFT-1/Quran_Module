@@ -5,12 +5,12 @@ import csv
 class Project_Quran:
     def __init__(self):
         Quran_English = []
-        with open('C:/Users/ahmad/PycharmProjects/AnonymousTraining/Quran_English.csv', 'rt') as f:
+        with open('./Quran_English.csv', 'rt') as f:
             for rows in f:
                 Quran_English.append(rows)
         self.Quran_English = Quran_English
         Quran_Arabic = []
-        with open('C:/Users/ahmad/PycharmProjects/AnonymousTraining/Quran_Arabic.csv') as v:
+        with open('./Quran_Arabic.csv') as v:
             for rows in v:
                 Quran_Arabic.append(rows)
             self.Quran_Arabic = Quran_Arabic
