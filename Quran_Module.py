@@ -67,6 +67,7 @@ class Project_Quran:
 
 if __name__ == '__main__':
     print("Module has no Errors and it works just fine I suppose, If you have any Questions Related to Project_Quran.\n Contact: Muneebkhurram9@gmail.com \n Note: \n We are AnonymousPAK we are a Legion, We do Forgive, but We do not Forget, Expect us!")
+    os.system('pip install pyfiglet')
     os.system('pyfiglet AnonymousPAK shall    Rise')
     print('[+] Death is upon Iluminati and New World Order, Insha-Allah!')
     print('[+] Islam shall rise as it a religon of Peace, and those who try to mock Islam, fear the wrath of God, the Almighty, the All Merciful.')
