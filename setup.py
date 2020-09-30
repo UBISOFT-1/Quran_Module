@@ -10,10 +10,6 @@ setup(
   url = 'https://github.com/UBISOFT-1/Quran_Module',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/UBISOFT-1/Quran_Module/archive/v1.0.tar.gz',    # I explain this later on
   keywords = ['Python Quran', 'Python Quran Ayah', 'Python Quran Module'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-          'validators',
-          'beautifulsoup4',
-      ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
