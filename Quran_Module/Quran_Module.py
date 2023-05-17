@@ -67,14 +67,4 @@ class Project_Quran:
 
 
 if __name__ == '__main__':
-    print("Module has no Errors and it works just fine I suppose, If you have any Questions Related to Project_Quran.\n Contact: Muneebkhurram9@gmail.com \n Note: \n We are AnonymousPAK we are a Legion, We do Forgive, but We do not Forget, Expect us!")
-    os.system('pip install pyfiglet')
-    os.system('pyfiglet AnonymousPAK shall    Rise')
-    print('[+] Death is upon Iluminati and New World Order, Insha-Allah!')
-    print('[+] Islam shall rise as it a religon of Peace, and those who try to mock Islam, fear the wrath of God, the Almighty, the All Merciful.')
-    print('[+] Fear Death as Death will also come to Death on the Day of Judgement')
-    print('[+] We follow Hadrat Muhammad (PBUH), We are Only Muslims, we are the Religion of Peace, But when try to take over our homelands, we would retaliate!')
-    print('[+] You try to mock Islam, have you ever thought, Ilumninati, in your country USA when a Black man does a firing he is a Terrorist, but when a white man does it, that is Mental Ilness!')
-    print('[+] لا الہ الا اللّٰہ محمد الرسول اللّٰہ ﷺ')
-    print("We are Peaceful, and we have no racial injustice like you since the beginning of Islam, As our Prophet (PBUH) said; \n We all are the children of Adam (A.S), thus no Arabian has any superiority over Non-Arabian and no Non-Arabian has superiority on Arabian, \n No Black is superior on white and No white is superior on Black!")
-    os.system("pyfiglet '/----PAK----/'")
+    print("[+] Prosperity to All Humankind!")
