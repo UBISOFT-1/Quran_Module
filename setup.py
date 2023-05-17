@@ -1,8 +1,11 @@
 from distutils.core import setup
+from setuptools import setup, find_packages
 setup(
   name = 'Quran_Module',         # How you named your package folder (MyLib)
-  packages = ['Quran_Module'],   # Chose the same as "name"
+  # packages = ['Quran_Module'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
+  packages = find_packages(),
+  package_data={'':['*.csv']},  
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Pure Python Module to Search, Get and Print Ayahs in Arabic and English and Much more.',   # Give a short description about your library
   author = 'Muneeb Ahmad Khurram',                   # Type in your name
