@@ -4,9 +4,14 @@ Using this Module, you can access all verses of Quran in Arabic and their Transl
 
 ## Installation
 
+Clone the repo and run pip install:
 ```
-pip install Quran_Module [Working on it, Not Online Yet]
 git clone https://github.com/UBISOFT-1/Quran_Module.git
+pip install .
+```
+Or pip install directly from the repo:
+```
+pip install git+https://github.com/UBISOFT-1/Quran_Module.git
 ```
 *Make .py files in the cloned folders for this Module to work.*
 ## Usage
