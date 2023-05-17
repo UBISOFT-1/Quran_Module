@@ -1,4 +1,5 @@
-# Quran_Module
+![Header](./images/github-header-image.png)
+# Quran Module
 
 Using this Module, you can access all verses of Quran in Arabic and their Translations. You can Also search the Quran both in Arabic and English, with as little as 3 lines of Code
 
@@ -6,8 +7,7 @@ Using this Module, you can access all verses of Quran in Arabic and their Transl
 
 Clone the repo and run pip install:
 ```
-git clone https://github.com/UBISOFT-1/Quran_Module.git
-pip install .
+pip install TheQuranModule
 ```
 Or pip install directly from the repo:
 ```
