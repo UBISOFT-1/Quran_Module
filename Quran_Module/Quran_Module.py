@@ -1,16 +1,17 @@
 import os
-import csv
-
+from pkg_resources import resource_string, resource_filename
 
 class Project_Quran:
     def __init__(self):
         Quran_English = []
-        with open('./Quran_English.csv', 'rt') as f:
+        Quran_English_path = resource_filename(__name__, 'Quran_English.csv')
+        with open(Quran_English_path, 'rt') as f:
             for rows in f:
                 Quran_English.append(rows)
         self.Quran_English = Quran_English
         Quran_Arabic = []
-        with open('./Quran_Arabic.csv') as v:
+        Quran_Arabic_path = resource_filename(__name__, 'Quran_Arabic.csv')
+        with open(Quran_Arabic_path) as v:
             for rows in v:
                 Quran_Arabic.append(rows)
             self.Quran_Arabic = Quran_Arabic
@@ -20,7 +21,7 @@ class Project_Quran:
             if Ayah_Number in enteries:
                 self.Check_Ayah_Results = True
 
-    def Get_Ayah_English(self, Ayah_Number):
+    def     Get_Ayah_English(self, Ayah_Number):
         for enteries in self.Quran_English:
             if Ayah_Number in enteries:
                 self.Ayah_English = enteries
