@@ -15,6 +15,14 @@ class Project_Quran:
             for rows in v:
                 Quran_Arabic.append(rows)
             self.Quran_Arabic = Quran_Arabic
+        Allah_Names = []
+        Allah_Names_path = resource_filename(__name__, 'Allah_Names.csv')
+        with open(Allah_Names_path) as v:
+            for i, rows in enumerate(v):
+                if i == 0:
+                    continue
+                Allah_Names.append(rows)
+            self.Allah_Names = Allah_Names
     def Check_Ayah(self, Ayah_Number):
         self.Check_Ayah_Results = False
         for enteries in self.Quran_English:
@@ -64,6 +72,24 @@ class Project_Quran:
         if len(self.Search_Results_Arabic) == 0:
             print("Try Searching the same word in English, or If you want it in Arabic Add Proper (َ ِ ُ ّ )")
         return self.Search_Results_Arabic
+    
+    def Get_Names_of_Allah_English(self):
+        self.Allah_Names_English = []
+        for enteries in self.Allah_Names:
+            self.Allah_Names_English.append(enteries.split(',')[-1].replace('\n',''))
+        return self.Allah_Names_English
+    
+    def Get_Names_of_Allah_Arabic(self):
+        self.Allah_Names_Arabic = []
+        for enteries in self.Allah_Names:
+            self.Allah_Names_Arabic.append(enteries.split(',')[0])
+        return self.Allah_Names_Arabic
+    
+    def Get_Names_of_Allah_Transliteration(self):
+        self.Allah_Names_Transliteration = []
+        for enteries in self.Allah_Names:
+            self.Allah_Names_Transliteration.append(enteries.split(',')[1])
+        return self.Allah_Names_Transliteration
 
 
 if __name__ == '__main__':
