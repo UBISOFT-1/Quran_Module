@@ -1,0 +1,3 @@
+include Quran_Module/Quran_English.csv
+include Quran_Module/Quran_Arabic.csv
+include Quran_Module/Names_of_Allah.csv
