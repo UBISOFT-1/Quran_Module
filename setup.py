@@ -14,11 +14,11 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'TheQuranModule'
 DESCRIPTION = 'Access Quran in Python with as little as three lines of code. With Both English and Arabic Support.'
-URL = 'https://github.com/malekinho8/quran-module/tree/manifest-test'
+URL = 'https://github.com/UBISOFT-1/Quran_Module.git'
 EMAIL = 'muneeb@muneeb.co'
 AUTHOR = 'Muneeb A.'
 REQUIRES_PYTHON = '>=3.6'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
