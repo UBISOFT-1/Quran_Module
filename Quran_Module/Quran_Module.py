@@ -17,7 +17,7 @@ class Project_Quran:
             self.Quran_Arabic = Quran_Arabic
         Allah_Names = []
         Allah_Names_path = resource_filename(__name__, 'Names_of_Allah.csv')
-        with open(Allah_Names_path) as v:
+        with open(Allah_Names_path, encoding='utf-8') as v:
             for i, rows in enumerate(v):
                 if i == 0:
                     continue
