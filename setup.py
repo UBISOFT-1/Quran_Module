@@ -18,7 +18,7 @@ URL = 'https://github.com/UBISOFT-1/Quran_Module.git'
 EMAIL = 'muneeb@muneeb.co'
 AUTHOR = 'Muneeb A.'
 REQUIRES_PYTHON = '>=3.6'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
