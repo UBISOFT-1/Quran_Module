@@ -11,13 +11,13 @@ class Project_Quran:
         self.Quran_English = Quran_English
         Quran_Arabic = []
         Quran_Arabic_path = resource_filename(__name__, 'Quran_Arabic.csv')
-        with open(Quran_Arabic_path) as v:
+        with open(Quran_Arabic_path, encoding='utf-8') as v:
             for rows in v:
                 Quran_Arabic.append(rows)
             self.Quran_Arabic = Quran_Arabic
         Allah_Names = []
         Allah_Names_path = resource_filename(__name__, 'Names_of_Allah.csv')
-        with open(Allah_Names_path) as v:
+        with open(Allah_Names_path, encoding='utf-8') as v:
             for i, rows in enumerate(v):
                 if i == 0:
                     continue
@@ -29,7 +29,7 @@ class Project_Quran:
             if Ayah_Number in enteries:
                 self.Check_Ayah_Results = True
 
-    def     Get_Ayah_English(self, Ayah_Number):
+    def Get_Ayah_English(self, Ayah_Number):
         for enteries in self.Quran_English:
             if Ayah_Number in enteries:
                 self.Ayah_English = enteries
