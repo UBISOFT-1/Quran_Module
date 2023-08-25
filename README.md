@@ -1,4 +1,4 @@
-![Header](./images/github-header-image.png)
+![image](https://github.com/UBISOFT-1/Quran_Module/assets/54579186/933daa30-f0b9-4038-ac43-c593939cde57)![Header](./images/github-header-image.png)
 # Quran Module
 
 Using this Module, you can access all verses of Quran in Arabic and their Translations. You can Also search the Quran both in Arabic and English, with as little as 3 lines of Code
@@ -83,4 +83,5 @@ See LICENSE.txt Also, when used in any Commercial Application, Permission must b
 
 ### Special Thanks
 Special Thanks to God Almighty who helped me make this module in less than an Hour Practically.
+- I would further like to thank @malekinho8 for his contributions to `TheQuranModule` in helping maintain it and using it in his `fajrGPT`. 
  
